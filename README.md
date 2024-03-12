@@ -1,4 +1,4 @@
-Site Dedicado a John Coltrane
+
 Bem-vindo ao site dedicado ao lendário saxofonista e compositor John Coltrane!
 
 Descrição
@@ -11,10 +11,9 @@ Discografia: Descubra a rica discografia de Coltrane, incluindo álbuns clássic
 
 Informações sobre Álbuns: Saiba mais sobre os álbuns mais importantes de Coltrane, suas influências, composições notáveis e formações de bandas.
 
-Galeria de Fotos: Explore uma coleção de fotos icônicas de John Coltrane, capturando momentos-chave de sua carreira e vida pessoal.
 
 Navegação
-Use a barra de navegação no topo da página para acessar diferentes seções do site, incluindo biografia, discografia e galeria de fotos. Clique nos links correspondentes para mergulhar no mundo de John Coltrane.
+Use a barra de navegação no topo da página para acessar diferentes seções do site, incluindo biografia, discografia e a home. Clique nos links correspondentes para mergulhar no mundo de John Coltrane.
 
 Créditos e Fontes
 As informações biográficas foram compiladas a partir de fontes confiáveis, incluindo biografias autorizadas e documentários sobre a vida de Coltrane.
