@@ -1,50 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeira página</title>
-   
+
     <style>
-        .link-container {
+        body {
+            background-image: url('https://www.jazzwise.com/media/71755/coltranemilesbohemia56-dan-hunstein-courtesy-sony-music.jpg');
+            background-size: cover;
+            background-repeat: repeat-x;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+ .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 70px; 
+        }
+
+        .link a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+
+        h1 {
+            font-family: "Arial", sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 20px 0;
+            color: white;
             text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .text {
+            font-family: 'Georgia', serif;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: normal;
+            color: white;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            text-shadow: 1px 1px 2px (0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: -1;
+        }
+
+        h4 {
+            text-align: center;
+            color: white;
+        }
+
+        .text-container {
+            min-height: 600px;
         }
     </style>
 </head>
+
 <body>
-    <table border="0" width="900" align="center">
-        <tr>
-            <td>
-            <div class="link-container">
-                <a href="index.html" class="link-dourado">Home</a> |
-                <a href="albuns.html" class="link-dourado">Álbuns</a> |
-                <a href="história.html" class="link-dourado">História</a> 
+    <div class="overlay"></div>
+    <div class="link">
+        <a href="index.html">Home</a>
+        <a href="albuns.html">Álbuns</a>
+        <a href="história.html">História</a>
+    </div>
+    <h1>"A música é um presente, e é muito mais do que algo que eu faço. É uma reflexão de quem eu sou."</h1>
 
-            </div>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <img src="banda.jpg">
-                <h1>História do Coltrane:</h1>
-                <p>
-                    John Coltrane, nascido em 23 de setembro de 1926 em Hamlet, Carolina do Norte, e falecido em 17 de julho de 1967 em Nova York, foi um dos músicos mais influentes e inovadores na história do jazz. Sua jornada musical é uma narrativa fascinante de dedicação, evolução artística e busca espiritual.
+    <div class="text">
+        John Coltrane, nascido em 23 de setembro de 1926 em Hamlet, Carolina do Norte, e falecido em 17 de julho de 1967
+        em Nova York, foi um dos músicos mais influentes e inovadores na história do jazz. Sua jornada musical é uma
+        narrativa fascinante de dedicação, evolução artística e busca espiritual.
+        <p>Coltrane cresceu em uma família musicalmente inclinada. Seu pai tocava violino e sua mãe era cantora de
+            igreja. Ele começou a tocar saxofone quando era adolescente e logo se destacou como um talento excepcional.
+            Durante sua juventude, ele foi inspirado por músicos como Lester Young e Charlie Parker, e passou muitas
+            horas estudando e praticando para aprimorar suas habilidades.</p>
 
-                    <p>Coltrane cresceu em uma família musicalmente inclinada. Seu pai tocava violino e sua mãe era cantora de igreja. Ele começou a tocar saxofone quando era adolescente e logo se destacou como um talento excepcional. Durante sua juventude, ele foi inspirado por músicos como Lester Young e Charlie Parker, e passou muitas horas estudando e praticando para aprimorar suas habilidades.</p>
+        <p>Sua carreira profissional decolou na década de 1950, quando ele começou a tocar com grandes nomes do jazz,
+            como Dizzy Gillespie e Miles Davis. Ele rapidamente se estabeleceu como um dos principais saxofonistas
+            tenores do jazz e começou a desenvolver seu próprio estilo único e inovador.</p>
 
-                    <p>Sua carreira profissional decolou na década de 1950, quando ele começou a tocar com grandes nomes do jazz, como Dizzy Gillespie e Miles Davis. Ele rapidamente se estabeleceu como um dos principais saxofonistas tenores do jazz e começou a desenvolver seu próprio estilo único e inovador.</p>
+        <p>Na década de 1960, Coltrane entrou em uma fase de intensa experimentação e busca espiritual. Ele começou a
+            explorar conceitos musicais mais abstratos e modais, abandonando estruturas harmônicas tradicionais em favor
+            de improvisação mais livre e expressiva. Seu álbum "Giant Steps", lançado em 1960, é considerado um marco
+            importante na história do jazz e demonstra sua habilidade técnica excepcional e sua criatividade como
+            compositor.</p>
 
-                    <p>Na década de 1960, Coltrane entrou em uma fase de intensa experimentação e busca espiritual. Ele começou a explorar conceitos musicais mais abstratos e modais, abandonando estruturas harmônicas tradicionais em favor de improvisação mais livre e expressiva. Seu álbum "Giant Steps", lançado em 1960, é considerado um marco importante na história do jazz e demonstra sua habilidade técnica excepcional e sua criatividade como compositor.</p>
+        <p>No ápice de sua carreira, Coltrane liderou seu próprio quarteto e gravou uma série de álbuns revolucionários,
+            incluindo "A Love Supreme" (1965), um trabalho profundamente espiritual que reflete sua devoção ao jazz como
+            uma forma de expressão religiosa. Este álbum é amplamente considerado uma obra-prima e uma das maiores
+            realizações na história do jazz.</p>
 
-                    <p>No ápice de sua carreira, Coltrane liderou seu próprio quarteto e gravou uma série de álbuns revolucionários, incluindo "A Love Supreme" (1965), um trabalho profundamente espiritual que reflete sua devoção ao jazz como uma forma de expressão religiosa. Este álbum é amplamente considerado uma obra-prima e uma das maiores realizações na história do jazz.</p>
+        <p>Infelizmente, a vida de Coltrane foi interrompida precocemente quando ele faleceu aos 40 anos de idade devido
+            a complicações relacionadas ao câncer. No entanto, seu legado musical perdura até os dias de hoje. Sua
+            música continua a inspirar músicos e amantes do jazz em todo o mundo, e seu impacto duradouro na música e na
+            cultura é inegável. John Coltrane é lembrado não apenas como um grande músico, mas como uma figura icônica
+            que transcendeu os limites do jazz e tocou os corações de milhões com sua música profunda e espiritual.</p>
 
-                    <p>Infelizmente, a vida de Coltrane foi interrompida precocemente quando ele faleceu aos 40 anos de idade devido a complicações relacionadas ao câncer. No entanto, seu legado musical perdura até os dias de hoje. Sua música continua a inspirar músicos e amantes do jazz em todo o mundo, e seu impacto duradouro na música e na cultura é inegável. John Coltrane é lembrado não apenas como um grande músico, mas como uma figura icônica que transcendeu os limites do jazz e tocou os corações de milhões com sua música profunda e espiritual.</p>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <h4>ABC-Paramount Records</h4>
-            </tr> 
-        </table>
-    </body>
-    </html>
+    </div>
+    <h4>ABC-Paramount Records</h4>
+</body>
+
+</html>
