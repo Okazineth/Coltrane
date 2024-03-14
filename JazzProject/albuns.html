@@ -1,132 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Álbuns</title>
     <style>
-        .link-container {
+        body {
+            background-image: url('https://www.jazzwise.com/media/71755/coltranemilesbohemia56-dan-hunstein-courtesy-sony-music.jpg');
+            background-size: contain;
+            background-repeat: repeat;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-bottom: 70px; 
+        }
+
+        .link a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        h1 {
+            font-family: "Arial", sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 20px 0;
+            color: white;
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .text {
+            font-family: 'Georgia', serif;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: normal;
+            color: white;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            text-shadow: 1px 1px 2px (0, 0, 0, 0.5);
             text-align: center;
         }
-    
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: -1;
+        }
+
+        .album-image {
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+            color: white;
+        }
     </style>
 </head>
+
 <body>
-    <table border="0" width="900" align="center">
-        <tr>
-            <td>
-                <div class="link-container">
-                <a href="index.html" class="link-dourado">Home</a> |
-                <a href="albuns.html" class="link-dourado">Álbuns</a> |
-                <a href="história.html" class="link-dourado">História</a> 
-                </div>
-            </td>
-            
-        </tr>
-        <tr>
-            <td colspan="2">
-                <img src="Picture.jpeg"width="1140" height="655" alt="Coltrane with sax">
-                <h2>Explorando os Álbuns de John Coltrane: </h2>
-                <p>
-                    Bem-vindo à seção de álbuns do nosso site dedicado ao lendário saxofonista e compositor, John Coltrane. Nesta jornada musical, convidamos você a explorar a rica e diversificada discografia de um dos mais influentes músicos do século XX.
+    <div class="overlay"></div>
+    <div class="link">
+        <a class="link" href="index.html">Home</a> |
 
-                    Os álbuns de John Coltrane não são apenas marcos na história do jazz, mas também testemunhos vívidos de sua evolução artística e expressão musical inovadora. Cada álbum representa uma jornada única, uma viagem emocional através de paisagens sonoras complexas e emocionantes.
+        <a class="link" href="albuns.html">Álbuns</a> |
 
-                    Ao longo de sua carreira, Coltrane mergulhou em uma ampla variedade de estilos e gêneros musicais, desde o hard bop e o modal jazz até o free jazz e a música espiritual. Seus álbuns não só refletem sua habilidade técnica excepcional como músico, mas também sua busca incessante pela expressão mais profunda e transcendental através da música.
+        <a class="link" href="história.html">História</a>
+    </div>
 
-                    Nesta seção, convidamos você a explorar cada álbum em detalhes, os clássicos atemporais "Giant Steps" e "A Love Supreme" e "Blue Train". Cada álbum é uma peça única do quebra-cabeça que é o legado musical de John Coltrane.
+    <h1>Explorando os Álbuns de John Coltrane: </h1>
+    <div>
+        <p class="text">
+            Bem-vindo à seção de álbuns do nosso site dedicado ao lendário saxofonista e compositor, John Coltrane.
+            Nesta jornada musical, convidamos você a explorar a rica e diversificada discografia de um dos mais
+            influentes músicos do século XX.
 
-                    Prepare-se para uma jornada fascinante através dos ritmos pulsantes, das harmonias complexas e das melodias arrebatadoras que definem a genialidade de John Coltrane. Deixe-se envolver pela magia da música e pela profunda influência de um dos maiores músicos de todos os tempos.
-                    
-                </p>
-            </td>
-        </tr>  
-        
-        <tr>
-            <td colspan="2">
-            <ol>
-                    <li>
-                        <hr>
-                        <h2>Giant Steps</h2>
-                        <img src="GiantSteps.jpg" width="500" height="420" alt="Giant Steps">
-                        <hr>
-                            "Giant Steps" é um dos álbuns mais emblemáticos e influentes de John Coltrane, lançado em 1960 pela Atlantic Records. Este álbum é frequentemente considerado um marco no jazz e é amplamente reconhecido por sua complexidade harmônica e técnica virtuosa.
+            Os álbuns de John Coltrane não são apenas marcos na história do jazz, mas também testemunhos vívidos de sua
+            evolução artística e expressão musical inovadora. Cada álbum representa uma jornada única, uma viagem
+            emocional através de paisagens sonoras complexas e emocionantes.
 
-                            A faixa-título, "Giant Steps", é uma das composições mais desafiadoras e inovadoras de Coltrane. A música apresenta uma progressão de acordes rápida e intrincada, que desafia até mesmo os músicos mais experientes. A abordagem única de Coltrane para a harmonia modal e suas habilidades como improvisador brilham nesta faixa, demonstrando seu domínio técnico e sua capacidade de criar melodias cativantes em meio a estruturas harmônicas complexas.
+            Ao longo de sua carreira, Coltrane mergulhou em uma ampla variedade de estilos e gêneros musicais, desde o
+            hard bop e o modal jazz até o free jazz e a música espiritual. Seus álbuns não só refletem sua habilidade
+            técnica excepcional como músico, mas também sua busca incessante pela expressão mais profunda e
+            transcendental através da música.
 
-                            Além da lendária faixa-título, o álbum inclui outras composições originais notáveis, como "Naima" e "Countdown", bem como interpretações impressionantes de standards do jazz, como "Syeeda's Song Flute" e "Mr. P.C.".
+            Nesta seção, convidamos você a explorar cada álbum em detalhes, os clássicos atemporais "Giant Steps" e "A
+            Love Supreme" e "Blue Train". Cada álbum é uma peça única do quebra-cabeça que é o legado musical de John
+            Coltrane.
 
-                            "Giant Steps" também é significativo por sua formação, que inclui alguns dos músicos mais talentosos da época, como Tommy Flanagan no piano, Paul Chambers no contrabaixo e Art Taylor na bateria. A interação e o entrosamento desses músicos adicionam uma camada adicional de profundidade e riqueza à música de Coltrane.
+            Prepare-se para uma jornada fascinante através dos ritmos pulsantes, das harmonias complexas e das melodias
+            arrebatadoras que definem a genialidade de John Coltrane. Deixe-se envolver pela magia da música e pela
+            profunda influência de um dos maiores músicos de todos os tempos.
 
-                            Este álbum não apenas desafiou as convenções do jazz da época, mas também influenciou gerações futuras de músicos e se tornou uma referência indispensável para qualquer estudante sério de jazz. A abordagem inovadora de Coltrane para a improvisação e sua busca incessante por novas fronteiras musicais são verdadeiramente evidentes em "Giant Steps", solidificando seu lugar como um dos álbuns mais importantes e duradouros da história do jazz.
-                        </p>
-                
-                    </li>
-                Formação:
-                <ul>
-                    <li>John Coltrane: Saxofone Tenor</li>
-                    <li>Tommy Flanagan: Piano</li>
-                    <li>Paul Chambers: Contrabaixo</li>
-                    <li>Art Taylor: Bateria</li>
-                </ul>
-                <hr>
-                    <li>
-                        <h2>A Love Supreme</h2>
-                            <img src="alovesupreme.jpg" width="500" height="420" alt="A love Supreme">
-                            <hr>
+        </p>
+    </div>
+    <hr>
 
-                            "A Love Supreme" é mais do que apenas um álbum de música; é uma jornada espiritual e uma expressão transcendental da devoção de John Coltrane à divindade. Lançado em 1965 pela Impulse! Records, este álbum revolucionário mergulha profundamente nas profundezas da alma humana, explorando temas de espiritualidade, redenção e amor universal.
+    <h1>1. Giant Steps</h1>
 
-                            O álbum é uma peça única e sagrada de arte, dividida em quatro partes distintas: "Acknowledgement", "Resolution", "Pursuance" e "Psalm". A faixa final, "Psalm", serve como uma oração musical, uma reverência ao divino e uma expressão de gratidão e adoração. É uma meditação musical que ecoa a busca interior de Coltrane por uma conexão espiritual mais profunda.
+    <div class="album-image">
+        <img src="imagens/GiantSteps.jpg" width="500" height="420" alt="Giant Steps">
+    </div>
 
-                             Em "Psalm", Coltrane transcende as fronteiras do jazz convencional, guiando seus ouvintes através de um estado de contemplação e elevação espiritual. Com seu saxofone tenor como um canal de comunicação entre o terreno e o divino, Coltrane conduz uma conversa sagrada através da linguagem universal da música.
+    <div class="text">
+        <p>
 
-                            A música de "Psalm" é uma tapeçaria de sons e sentimentos, evocando imagens de serenidade e paz interior. As notas ressoam com uma pureza celestial, levando os ouvintes a um estado de quietude e reflexão. É uma experiência que transcende o intelecto, mergulhando no âmago do espírito humano.
+            "Giant Steps" é um dos álbuns mais emblemáticos e influentes de John Coltrane, lançado em 1960
+            pela Atlantic Records. Este álbum é frequentemente considerado um marco no jazz e é amplamente reconhecido
+            por
+            sua complexidade harmônica e técnica virtuosa.
 
-                            Ao explorar as profundezas da espiritualidade através da música, "A Love Supreme" desafia as convenções do jazz e transcende as limitações do gênero. É uma obra-prima que continua a inspirar e ressoar com os corações daqueles que buscam significado e conexão espiritual através da arte.
-                        </p>
-                        Formação:
-                        <ul>
-                            <li>John Coltrane: Saxofone Tenor</li>
-                            <li>McCoy Turner: Piano</li>
-                            <li>Jimmy Garrison: Baixo</li>
-                            <li>Elvis Jones: Bateria</li>
-                        </ul>
-                    <hr>
-                    <li>
-                        <h2>Blue Train</h2>
-                        <img src="bluetrain.jpg" width="500" height="420" alt="Blue Train">
-                        <hr>
-                        "Blue Train" é um álbum icônico no mundo do jazz, lançado em 1958 pelo lendário saxofonista John Coltrane como líder de uma sessão de estúdio para a gravadora Blue Note Records. Este álbum é um testemunho da genialidade e da inovação de Coltrane, que emergia como uma das figuras mais influentes no cenário do jazz da época.
+            A faixa-título, "Giant Steps", é uma das composições mais desafiadoras e inovadoras de Coltrane. A música
+            apresenta uma progressão de acordes rápida e intrincada, que desafia até mesmo os músicos mais experientes.
+            A
+            abordagem única de Coltrane para a harmonia modal e suas habilidades como improvisador brilham nesta faixa,
+            demonstrando seu domínio técnico e sua capacidade de criar melodias cativantes em meio a estruturas
+            harmônicas
+            complexas.
 
-                        O título do álbum, "Blue Train", evoca a sensação de viagem e movimento, refletindo a natureza energética e fluente da música encontrada dentro de suas faixas. Coltrane lidera um conjunto de músicos excepcionais, incluindo Lee Morgan no trompete, Curtis Fuller no trombone, Kenny Drew no piano, Paul Chambers no contrabaixo e Philly Joe Jones na bateria. Juntos, eles criam uma paisagem sonora rica e dinâmica que captura a imaginação do ouvinte desde o primeiro acorde.
+            Além da lendária faixa-título, o álbum inclui outras composições originais notáveis, como "Naima" e
+            "Countdown",
+            bem como interpretações impressionantes de standards do jazz, como "Syeeda's Song Flute" e "Mr. P.C.".
 
-                        Uma das características mais notáveis de "Blue Train" é a composição homônima de Coltrane, uma peça de cerca de dez minutos que serve como peça central do álbum. A faixa-título apresenta um tema cativante e envolvente, destacando as habilidades de improvisação de Coltrane e de seus colegas de banda. A energia pulsante e a intensidade emocional presente nesta faixa exemplificam a mestria de Coltrane como líder de banda e como solista virtuoso.
+            "Giant Steps" também é significativo por sua formação, que inclui alguns dos músicos mais talentosos da
+            época,
+            como Tommy Flanagan no piano, Paul Chambers no contrabaixo e Art Taylor na bateria. A interação e o
+            entrosamento
+            desses músicos adicionam uma camada adicional de profundidade e riqueza à música de Coltrane.
 
-                        Além da faixa-título, o álbum apresenta outras composições notáveis, como "Moments Notice", "Locomotion" e "Lazy Bird". Cada faixa exibe uma variedade de estilos e influências, desde o blues até o bebop, demonstrando a versatilidade e a profundidade do talento de Coltrane como compositor e intérprete.
+            Este álbum não apenas desafiou as convenções do jazz da época, mas também influenciou gerações futuras de
+            músicos e se tornou uma referência indispensável para qualquer estudante sério de jazz. A abordagem
+            inovadora de
+            Coltrane para a improvisação e sua busca incessante por novas fronteiras musicais são verdadeiramente
+            evidentes
+            em "Giant Steps", solidificando seu lugar como um dos álbuns mais importantes e duradouros da história do
+            jazz.
+        </p>
+    </div>
 
-                        "Blue Train" não apenas cativou os fãs de jazz de sua época, mas também deixou um legado duradouro que continua a inspirar músicos e aficionados pelo jazz até os dias de hoje. Sua combinação de composições inovadoras, improvisações virtuosas e energia contagiante o torna uma obra-prima atemporal que permanece como um dos álbuns mais emblemáticos da história do jazz.
-                    <p>
-                        Formação:
-                    <ul>
-                        <li>John Coltrane: Saxofone Tenor</li>
-                        <li>Lee Morgan: Trompete</li>
-                        <li>Curtis Fuller: Trombone</li>
-                        <li>Kenny Drew: Piano</li>
-                        <li>Paul Chambers: Contrabaixo</li>
-                        <li>Philly Joe Jones: Bateria</li>
+    <hr>
+    <h1>2. A Love Supreme</h1>
+    <div class="album-image">
+        <img src="imagens/alovesupreme.jpg" width="500" height="420" alt="A love Supreme">
+    </div>
+    <hr>
 
-                    </ul>
-                <hr> 
-                </li>
-                
-            </td>
-        </tr>    
-        <tr>
-            <td colspan="2" align="center">
-                <h4>ABC-Paramount Records</h4>
-            </td>
-        </tr> 
-    </table>
+    <div class="text">
+        "A Love Supreme" é mais do que apenas um álbum de música; é uma jornada espiritual e uma expressão
+        transcendental da devoção de John Coltrane à divindade. Lançado em 1965 pela Impulse! Records, este álbum
+        revolucionário mergulha profundamente nas profundezas da alma humana, explorando temas de espiritualidade,
+        redenção e amor universal.
+
+        O álbum é uma peça única e sagrada de arte, dividida em quatro partes distintas: "Acknowledgement",
+        "Resolution", "Pursuance" e "Psalm". A faixa final, "Psalm", serve como uma oração musical, uma reverência ao
+        divino e uma expressão de gratidão e adoração. É uma meditação musical que ecoa a busca interior de Coltrane por
+        uma conexão espiritual mais profunda.
+
+        Em "Psalm", Coltrane transcende as fronteiras do jazz convencional, guiando seus ouvintes através de um estado
+        de contemplação e elevação espiritual. Com seu saxofone tenor como um canal de comunicação entre o terreno e o
+        divino, Coltrane conduz uma conversa sagrada através da linguagem universal da música.
+
+        A música de "Psalm" é uma tapeçaria de sons e sentimentos, evocando imagens de serenidade e paz interior. As
+        notas ressoam com uma pureza celestial, levando os ouvintes a um estado de quietude e reflexão. É uma
+        experiência que transcende o intelecto, mergulhando no âmago do espírito humano.
+
+        Ao explorar as profundezas da espiritualidade através da música, "A Love Supreme" desafia as convenções do jazz
+        e transcende as limitações do gênero. É uma obra-prima que continua a inspirar e ressoar com os corações
+        daqueles que buscam significado e conexão espiritual através da arte.
+    </div>
+
+    </p>
+    <hr>
+    <h1>3. Blue Train</h1>
+    <div class="album-image">
+        <img src="imagens/bluetrain.jpg" width="500" height="420" alt="Blue Train">
+    </div>
+
+    <hr>
+
+    <div class="text">
+        "Blue Train" é um álbum icônico no mundo do jazz, lançado em 1958 pelo lendário saxofonista John Coltrane como
+        líder de uma sessão de estúdio para a gravadora Blue Note Records. Este álbum é um testemunho da genialidade e
+        da inovação de Coltrane, que emergia como uma das figuras mais influentes no cenário do jazz da época.
+
+        O título do álbum, "Blue Train", evoca a sensação de viagem e movimento, refletindo a natureza energética e
+        fluente da música encontrada dentro de suas faixas. Coltrane lidera um conjunto de músicos excepcionais,
+        incluindo Lee Morgan no trompete, Curtis Fuller no trombone, Kenny Drew no piano, Paul Chambers no contrabaixo e
+        Philly Joe Jones na bateria. Juntos, eles criam uma paisagem sonora rica e dinâmica que captura a imaginação do
+        ouvinte desde o primeiro acorde.
+
+        Uma das características mais notáveis de "Blue Train" é a composição homônima de Coltrane, uma peça de cerca de
+        dez minutos que serve como peça central do álbum. A faixa-título apresenta um tema cativante e envolvente,
+        destacando as habilidades de improvisação de Coltrane e de seus colegas de banda. A energia pulsante e a
+        intensidade emocional presente nesta faixa exemplificam a mestria de Coltrane como líder de banda e como solista
+        virtuoso.
+
+        Além da faixa-título, o álbum apresenta outras composições notáveis, como "Moments Notice", "Locomotion" e "Lazy
+        Bird". Cada faixa exibe uma variedade de estilos e influências, desde o blues até o bebop, demonstrando a
+        versatilidade e a profundidade do talento de Coltrane como compositor e intérprete.
+
+        "Blue Train" não apenas cativou os fãs de jazz de sua época, mas também deixou um legado duradouro que continua
+        a inspirar músicos e aficionados pelo jazz até os dias de hoje. Sua combinação de composições inovadoras,
+        improvisações virtuosas e energia contagiante o torna uma obra-prima atemporal que permanece como um dos álbuns
+        mais emblemáticos da história do jazz.
+        <p>
+            <hr>
+        </p>
+    </div>
+
+    <h4>ABC-Paramount Records</h4>
+
 </body>
+
 </html>
