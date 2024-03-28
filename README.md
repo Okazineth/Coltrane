@@ -18,7 +18,5 @@ Use a barra de navegação no topo da página para acessar diferentes seções d
 Créditos e Fontes
 As informações biográficas foram compiladas a partir de fontes confiáveis, incluindo biografias autorizadas e documentários sobre a vida de Coltrane.
 
-As imagens e vídeos foram obtidos de bibliotecas de mídia gratuitas e domínio público, com créditos dados sempre que necessário.
-
 Contato
 Se você tiver alguma dúvida, sugestão ou feedback sobre o site, sinta-se à vontade para entrar em contato conosco pelo e-mail joaoaalves345@gmail.com.
